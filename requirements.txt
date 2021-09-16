@@ -3,3 +3,5 @@
 # installations of a complete environment.
 fastapi
 orjson
+gunicorn
+uvicorn

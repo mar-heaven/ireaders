@@ -3,12 +3,12 @@ ireaders
 
 Features
 --------
-* package.sh µÄÄÚÈİÓ¦¸Ã·Åµ½jenkinsÖĞÊµÏÖ
+* package.sh çš„å†…å®¹åº”è¯¥æ”¾åˆ°jenkinsä¸­å®ç°
 
 Build image:
 ----
-1. ÔËĞĞsh package.sh Éú³Éwhl°ü
-2. ÔËĞĞ docker build -t ireaders:0.2 . À´Éú³É¾µÏñ£¬°æ±¾ºÅÓ¦¸ÃÓÉversioneerÉú³É
+1. è¿è¡Œsh package.sh ç”ŸæˆwhlåŒ…
+2. è¿è¡Œ docker build -t ireaders:0.2 . æ¥ç”Ÿæˆé•œåƒï¼Œç‰ˆæœ¬å·åº”è¯¥ç”±versioneerç”Ÿæˆ
 
 Run:
 ---

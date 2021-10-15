@@ -27,6 +27,9 @@ jobs:
           python setup.py build
           python setup.py bdist_wheel --skip-build
           ls -al
+      - name: ls -al
+        run: |
+          ls -al
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2

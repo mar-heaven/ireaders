@@ -30,6 +30,7 @@ jobs:
           pwd
       - name: ls -al
         run: |
+          touch 1.py
           pwd
           ls -al
           pwd

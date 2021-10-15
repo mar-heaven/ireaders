@@ -30,7 +30,9 @@ jobs:
           pwd
       - name: ls -al
         run: |
+          pwd
           ls -al
+          pwd
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2

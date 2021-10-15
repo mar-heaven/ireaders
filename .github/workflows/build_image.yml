@@ -2,8 +2,8 @@ name: Publish Docker image
 
 on:
   push:
-    branches:
-      - 'master'
+    tags:
+      - release/*  # add .* to allow dev releases
 
 jobs:
   push_to_registry:
@@ -26,14 +26,6 @@ jobs:
         run: |
           python setup.py build
           python setup.py bdist_wheel --skip-build
-          ls -al
-          pwd
-      - name: ls -al
-        run: |
-          touch 1.py
-          pwd
-          ls -al
-          pwd
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2

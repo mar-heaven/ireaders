@@ -3,7 +3,6 @@ USER root
 WORKDIR /tmp
 
 COPY requirements.txt /tmp/requirements.txt
-COPY 1.py /tmp/1.py
 
 RUN pip install -r /tmp/requirements.txt \
 &&  rm -f /tmp/requirements.txt
